@@ -1,4 +1,4 @@
-import { checkAndCloseExpiredSessions } from './sessionService';
+import { checkAndCloseExpiredSessions } from './auth';
 
 // Exécuter au chargement de l'application
 export const initializeSessionCleanup = async (): Promise<void> => {
